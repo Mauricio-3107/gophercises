@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	cyoa "github.com/Mauricio-3107/gophercises.git/ex-3"
+	cyoa "github.com/Mauricio-3107/gophercises.git/cyoa"
 )
 
 func main() {
