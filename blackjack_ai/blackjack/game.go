@@ -87,6 +87,7 @@ func deal(g *Game) {
 	for i := 0; i < 2; i++ {
 		card, g.deck = draw(g.deck)
 		playerHand = append(playerHand, card)
+		_ = playerHand
 		card, g.deck = draw(g.deck)
 		g.dealer = append(g.dealer, card)
 	}
