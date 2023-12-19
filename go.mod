@@ -3,6 +3,7 @@ module github.com/Mauricio-3107/gophercises.git
 go 1.21.4
 
 require (
+	github.com/alecthomas/chroma v0.10.0
 	github.com/boltdb/bolt v1.3.1
 	github.com/gophercises/urlshort v0.0.0-20190723121003-cc800dbaf411
 	github.com/lib/pq v1.10.9
@@ -12,6 +13,7 @@ require (
 )
 
 require (
+	github.com/dlclark/regexp2 v1.4.0 // indirect
 	github.com/go-yaml/yaml v2.1.0+incompatible // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
